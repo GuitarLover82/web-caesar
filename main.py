@@ -23,6 +23,11 @@ form = '''
           height: 120px;
       }
     </style>
+  </head>
+  <body>
+    < 
+  </body>
+</html>    
     '''  
 
 @app.route("/")
