@@ -26,7 +26,7 @@ form = '''
     </style>
   </head>
   <body>
-    < 
+    <input name="rot" type="
   </body>
 </html>    
     '''  
