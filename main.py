@@ -18,11 +18,12 @@ form = '''
           font: 16px sans-serif;
           border-radius: 10px;
       }
-      textarea {
-          margin: 10px;
+      textarea {{
+          margin: 10px 0;
           width: 540px;
           height: 120px;
-      }
+      }}
+      
     </style>
   </head>
   <body>
@@ -41,7 +42,11 @@ def index():
 
 @app.route("/", methods=['POST'])
 def encrypt():
-    return 
+    rot = request.form["rot"]
+    text = request.form["text"]
+
+
+    return <h1></h1>
       
 
 app.run()   
