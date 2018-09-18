@@ -26,7 +26,11 @@ form = '''
     </style>
   </head>
   <body>
-    <input name="rot" type="
+    <form method="post">
+      <label for="rotate-by">Rotate by:</label>
+      <input id="rotate-by type="text" name="rot" />
+      <input type="textarea" /"
+    </form>
   </body>
 </html>    
     '''  
